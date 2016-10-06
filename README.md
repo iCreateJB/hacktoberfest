@@ -8,15 +8,15 @@ Check your Hacktoberfest progress
 ```
   {
     "count": "",
-    pull_requests: [
+    "pull_requests": [
       {
-        pull_request_number: "",
-        title: "",
-        user: "",
-        state: "",
-        repo_name: "",
-        url: "",
-        created_at: ""
+        "pull_request_number": "",
+        "title": "",
+        "user": "",
+        "state": "",
+        "repo_name": "",
+        "url": "",
+        "created_at": ""
       }
     ]
   }
