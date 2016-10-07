@@ -66,7 +66,6 @@ func PullRequestHandler(w http.ResponseWriter, r *http.Request) {
     return
   }
   opt    := &github.ListOptions{PerPage: 100}
-  fmt.Printf("[b] %v\n",ghUser)
   events, _, err := ghClient.Activity.ListEventsPerformedByUser(ghUser,true,opt);
   if  err != nil { fmt.Println(err) }
   for _,event := range events {
